@@ -1,0 +1,285 @@
+body
+{
+    background-color: #f9f4f4;
+}
+.nav
+{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: #f9f4f4;
+}
+.nav-img
+{
+    height: 40px;
+    width: 230px;
+    margin: 15px 0px 0px 20px;
+}
+.nav-img img
+{
+    height: 33px;
+    width: 150px;
+}
+.nav-search
+{
+    height: 30px;
+    width: 604px;
+    padding: 13px;
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+.nav-search input
+{
+    height:25px ;
+    width: 495px;
+    padding: 0px 12px 0px 0px;
+    border:1px solid orange;
+}
+.search-icon
+{
+    height: 14px;
+    width: 38px;
+    background-color: #461200;
+    color: white;
+    padding: 6px 10px;
+    cursor: pointer;
+    
+}
+.nav-head
+{
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    background-color: #115f64;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    
+}
+.nav-head a:hover
+{
+    background-color: #042224;
+    height: 20px;
+}
+.nav-head a
+{
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.nav-main
+{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.div-main
+{
+    height: 1500px;
+    width: 60%;
+    background-color: #ffffff;
+    
+}
+.div-slide
+{
+    height: 500px;
+    width: 40%;
+}
+.div-yt
+{
+    background-color: white;
+    height: 50px;
+    width: 555px;
+    text-align: center;
+    
+
+}
+.div-yt h2
+{
+    color: #610b4b;
+    
+}
+.div-yt a
+{
+    text-decoration: none;
+    color: green;
+}
+.div-yt i
+{
+    color: red;
+}
+.div-eng
+{
+    height: 200px;
+    width: 550px;
+    display: flex;
+    background-color: white;
+}
+.div-eng img
+{
+    height: 193px;
+    width: 275px;
+}
+hr
+{
+    color: #f9f4f4;
+    height: 10px;
+    border: none;
+}
+
+
+.hero
+{
+    width: 530px;
+    height: 100vh;
+    padding: 5.6px 12px 10px;
+    background-color: white;
+    
+}
+.hero-sec
+{
+    width: 530px;
+    height: 100vh;
+    /* padding: 12px; 
+     margin: 10px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.splnk
+{
+    height: 112px;
+    width: 121px;
+    align-items: center;
+    /* padding: 10px;
+    margin: 5px; 
+    margin-left: -5px; */
+    color: green;
+    text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.prepration
+{
+    width: 530px;
+    height: 190px;
+    padding: 5.6px 12px 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.pre-title
+{
+    margin-top: 10px;
+    color: #610b61;
+}
+.pre-div
+{
+    width: 530px;
+    height: 190px;
+    /* padding: 12px; 
+     margin: 10px; */
+     margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.auther
+{
+    height:230px ;
+    width: 571px;
+
+}
+.auther img
+{
+    height: 180px;
+    width: 150px;
+    float: left;
+    padding: 10px;
+    
+}
+.para
+{
+    float: top;
+    text-align: justify;
+    margin-left: 5px;
+}
+.name
+{
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.name p
+{
+    margin-top: 5px;
+}
+/* .a 
+{
+    float: right ;
+    margin-top: 10px;
+    margin-right: 0px;
+} */
+.h21
+{
+    /* float: left; */
+    margin-top: 15px;
+    color: #610b61;
+}
+.trial
+{
+    margin-top: 20px;
+    background-color: white;
+    height: 50px;
+    width: 450px;
+    text-align:left;
+}
+.trial a
+{
+    text-decoration: none;
+    color: #008000;
+    font-size: 1.4rem;
+  
+}
+.Feedback
+{
+    height: 30px;
+    width: 450px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f6f9ee;
+    color: #610b4b;
+}
+ol
+{
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    cursor: pointer;
+
+}
+.ol
+{
+    height: 100vh;
+    width: 300px;
+    padding-left: 20px;
+}
+ol li
+{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding: 0.3em;
+    color: #008000;
+}
+.foot
+{
+    margin-top: 1000px;
+    background-color: aqua;
+    text-align: center;
+}
